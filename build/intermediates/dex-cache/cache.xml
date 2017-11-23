@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/webmavens/StudioProjects/CamCardScanner/scanlibrary/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ab87e2132d5b0143fbc5040b43b26e10f6c36da">
+        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_fa7c7e98394b33b161c26e17f1895ba93aa204f6.jar" />
+    </item>
+
+</items>

@@ -13,6 +13,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
+
 import com.googlecode.tesseract.android.TessBaseAPI;
 import com.scanlibrary.ScanActivity;
 import com.scanlibrary.ScanConstants;
@@ -32,6 +34,7 @@ public class MainActivity extends ActionBarActivity {
     int REQUEST_CODE = 99;
     private TessBaseAPI mTess;
     String datapath = "";
+    TextView tv;
     int preference = ScanConstants.PICKFILE_REQUEST_CODE;
 
     @Override
@@ -39,6 +42,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        tv = (TextView) findViewById(R.id.tv);
         cameraButton = (Button)findViewById(R.id.cameraButton);
         scan = (Button)findViewById(R.id.scan);
         scannedImageView = (ImageView) findViewById(R.id.scannedImage);
@@ -65,27 +69,25 @@ public class MainActivity extends ActionBarActivity {
                 String OCRresult = null;
                 mTess.setImage(bitmap);
                 OCRresult = mTess.getUTF8Text();
-                //Toast.makeText(getApplicationContext(), OCRresult ,Toast.LENGTH_SHORT).show();
+                tv.setText(OCRresult);
 
-                final AlertDialog alertDialog = new AlertDialog.Builder(
-                        MainActivity.this).create();
+                //sapret into multiple string
+                String multiLines = OCRresult;
+                String[] line;
+                String delimiter = "\n";
+                line = multiLines.split(delimiter);
 
-                // Setting Dialog Title
+                //total number of line
+                int total = tv.getLineCount();
+
+                //alertdialog
+                final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
                 alertDialog.setTitle("OCR Text");
-
-                // Setting Dialog Message
-                alertDialog.setMessage(OCRresult);
-
-                // Setting OK Button
+                alertDialog.setMessage("1st line is : " + line[0] + "\n2nd line is : " + line[1] +"\n3rd line is : " + line[2] + "\n4th line is : " + line[3] + "\nTotal line : " + total);
                 alertDialog.setButton("Done", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        alertDialog.cancel();
-                    }
+                    public void onClick(DialogInterface dialog, int which) {alertDialog.cancel();}
                 });
-
-                // Showing Alert Message
                 alertDialog.show();
-
 
             }
         });

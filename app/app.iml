@@ -97,7 +97,9 @@
     <orderEntry type="library" exported="" name="com.android.support:support-v4-24.0.0" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:appcompat-v7-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-annotations:24.0.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" exported="" name="com.rmtheis:tess-two-6.2.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support.constraint:constraint-layout-1.0.2" level="project" />
     <orderEntry type="module" module-name="scanlibrary" exported="" />
   </component>
 </module>

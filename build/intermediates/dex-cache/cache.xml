@@ -10,5 +10,23 @@
         sha1="4ab87e2132d5b0143fbc5040b43b26e10f6c36da">
         <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_fa7c7e98394b33b161c26e17f1895ba93aa204f6.jar" />
     </item>
+    <item
+        is-multidex="false"
+        jar="/home/webmavens/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_0eef2d017c2d03af0e7037b297b62aca0fea3760.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/webmavens/.android/build-cache/c1a2ae8b7ae4f5c599b81150eb48d22f1e473594/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_4ef9e1eedd4fc3a8fdb5669e09c93e4c6c08a985.jar" />
+    </item>
 
 </items>

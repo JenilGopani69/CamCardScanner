@@ -14,7 +14,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.googlecode.tesseract.android.TessBaseAPI;
 import com.scanlibrary.ScanActivity;
 import com.scanlibrary.ScanConstants;
@@ -24,6 +23,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -34,7 +35,7 @@ public class MainActivity extends ActionBarActivity {
     int REQUEST_CODE = 99;
     private TessBaseAPI mTess;
     String datapath = "";
-    TextView tv;
+    TextView tv,tvname,tvemail,tvmobile,tvweb;
     int preference = ScanConstants.PICKFILE_REQUEST_CODE;
 
     @Override
@@ -42,7 +43,11 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        tvemail = (TextView) findViewById(R.id.tvemail);
         tv = (TextView) findViewById(R.id.tv);
+        tvmobile = (TextView) findViewById(R.id.tvmobile);
+        tvname = (TextView) findViewById(R.id.tvname);
+        tvweb = (TextView) findViewById(R.id.tvweb);
         cameraButton = (Button)findViewById(R.id.cameraButton);
         scan = (Button)findViewById(R.id.scan);
         scannedImageView = (ImageView) findViewById(R.id.scannedImage);
@@ -69,18 +74,32 @@ public class MainActivity extends ActionBarActivity {
                 String OCRresult = null;
                 mTess.setImage(bitmap);
                 OCRresult = mTess.getUTF8Text();
+                extractName(OCRresult);
+                extractEmail(OCRresult);
+                extractPhone(OCRresult);
+                extractWeb(OCRresult);
+                OCRresult = OCRresult.replaceAll("[-`$#%~¯‘?<>—“–\\\\{}/_()'!;^|\"]*", "");
                 tv.setText(OCRresult);
 
-                //sapret into multiple string
+
+                /*
+                Intent intent = new Intent(getApplicationContext(),Contact.class);
+                intent.putExtra("scanText",OCRresult);
+                //intent.putExtras("scanImage",scannedImageView.setImageBitmap());
+                startActivity(intent);
+*/
+
+                //separate into multiple string
                 String multiLines = OCRresult;
                 String[] line;
                 String delimiter = "\n";
                 line = multiLines.split(delimiter);
 
                 //total number of line
-                int total = tv.getLineCount();
+                //int total = tv.getLineCount();
 
-                //alertdialog
+                /*
+                //alert dialog
                 final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
                 alertDialog.setTitle("OCR Text");
                 alertDialog.setMessage("1st line is : " + line[0] + "\n2nd line is : " + line[1] +"\n3rd line is : " + line[2] + "\n4th line is : " + line[3] + "\nTotal line : " + total);
@@ -88,7 +107,7 @@ public class MainActivity extends ActionBarActivity {
                     public void onClick(DialogInterface dialog, int which) {alertDialog.cancel();}
                 });
                 alertDialog.show();
-
+                */
             }
         });
 
@@ -153,6 +172,54 @@ public class MainActivity extends ActionBarActivity {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+    }
+
+    public void extractName(String str){
+        final String NAME_REGEX1 = "^([A-Z][a-z]*((\\s)))+[A-Z][a-z]*$";
+        final String NAME_REGEX2 = "^([A-Z]([a-z]*|\\.) *){1,2}([A-Z][a-z]+-?)+$";
+        Pattern p1 = Pattern.compile(NAME_REGEX1, Pattern.MULTILINE);
+        Pattern p2 = Pattern.compile(NAME_REGEX2, Pattern.MULTILINE);
+        Matcher m1 =  p1.matcher(str);
+        Matcher m2 =  p2.matcher(str);
+        if(m1.find()){System.out.println(m1.group());tvname.setText("Name : "+ m1.group());}
+        if(m1.find()){System.out.println(m2.group());tvname.setText("Name : "+ m2.group());}
+    }
+
+    public void extractEmail(String str) {
+        final String EMAIL_REGEX = "(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])";
+        Pattern p = Pattern.compile(EMAIL_REGEX, Pattern.MULTILINE);
+        Matcher m = p.matcher(str);   // get a matcher object
+        if(m.find()){
+            System.out.println(m.group());
+            tvemail.setText("Email : "+m.group());
+        }
+    }
+
+    public void extractPhone(String str){
+        final String PHONE_REGEX1="\\+?\\d[\\d -]{8,12}\\d";
+        final String PHONE_REGEX2="(?:^|\\D)(\\d{3})[)\\-. ]*?(\\d{3})[\\-. ]*?(\\d{4})(?:$|\\D)";
+        final String PHONE_REGEX3="^(?:(?:\\+|0{0,2})91(\\s*[\\-]\\s*)?|[0]?)?[789]\\d{9}$";
+
+        Pattern p1 = Pattern.compile(PHONE_REGEX1, Pattern.MULTILINE);
+        Pattern p2 = Pattern.compile(PHONE_REGEX2, Pattern.MULTILINE);
+        Pattern p3 = Pattern.compile(PHONE_REGEX3, Pattern.MULTILINE);
+
+        Matcher m1 = p1.matcher(str);
+        Matcher m2 = p2.matcher(str);
+        Matcher m3 = p3.matcher(str);// get a matcher object
+        if(m1.find()){tvmobile.setText("Mobile : "+ m1.group());}
+        if(m2.find()){tvmobile.setText("Mobile : "+ m2.group());}
+        if(m2.find()){tvmobile.setText("Mobile : "+ m3.group());}
+    }
+
+    public void extractWeb(String str){
+        final String WEB_REGEX="(https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]\\.[^\\s]{2,})";
+        Pattern p = Pattern.compile(WEB_REGEX, Pattern.MULTILINE);
+        Matcher m = p.matcher(str);   // get a matcher object
+        if(m.find()){
+            System.out.println(m.group());
+            tvweb.setText("WebPage : "+ m.group());
         }
     }
 

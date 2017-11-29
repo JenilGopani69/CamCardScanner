@@ -176,14 +176,18 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void extractName(String str){
-        final String NAME_REGEX1 = "^([A-Z][a-z]*((\\s)))+[A-Z][a-z]*$";
-        final String NAME_REGEX2 = "^([A-Z]([a-z]*|\\.) *){1,2}([A-Z][a-z]+-?)+$";
+        final String NAME_REGEX1 = "^([A-Z]([A-Z]*|\\.) *){1,2}([A-Z][A-Z]+-?)+$";
+        final String NAME_REGEX2 = "^([A-Z][a-z]*((\\s)))+[A-Z][a-z]*$";
+        final String NAME_REGEX3= "^([A-Z]([a-z]*|\\.) *){1,2}([A-Z][a-z]+-?)+$";
         Pattern p1 = Pattern.compile(NAME_REGEX1, Pattern.MULTILINE);
         Pattern p2 = Pattern.compile(NAME_REGEX2, Pattern.MULTILINE);
+        Pattern p3 = Pattern.compile(NAME_REGEX3, Pattern.MULTILINE);
         Matcher m1 =  p1.matcher(str);
         Matcher m2 =  p2.matcher(str);
+        Matcher m3 =  p3.matcher(str);
         if(m1.find()){System.out.println(m1.group());tvname.setText("Name : "+ m1.group());}
-        if(m1.find()){System.out.println(m2.group());tvname.setText("Name : "+ m2.group());}
+        if(m2.find()){System.out.println(m2.group());tvname.setText("Name : "+ m2.group());}
+        if(m3.find()){System.out.println(m3.group());tvname.setText("Name : "+ m3.group());}
     }
 
     public void extractEmail(String str) {
@@ -210,17 +214,18 @@ public class MainActivity extends ActionBarActivity {
         Matcher m3 = p3.matcher(str);// get a matcher object
         if(m1.find()){tvmobile.setText("Mobile : "+ m1.group());}
         if(m2.find()){tvmobile.setText("Mobile : "+ m2.group());}
-        if(m2.find()){tvmobile.setText("Mobile : "+ m3.group());}
+        if(m3.find()){tvmobile.setText("Mobile : "+ m3.group());}
     }
 
     public void extractWeb(String str){
-        final String WEB_REGEX="(https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]\\.[^\\s]{2,})";
-        Pattern p = Pattern.compile(WEB_REGEX, Pattern.MULTILINE);
-        Matcher m = p.matcher(str);   // get a matcher object
-        if(m.find()){
-            System.out.println(m.group());
-            tvweb.setText("WebPage : "+ m.group());
-        }
+        final String WEB_REGEX1="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$";
+        final String WEB_REGEX2="(https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\\.[^\\s]{2,}|https?:\\/\\/(?:www\\.|(?!www))[a-zA-Z0-9]\\.[^\\s]{2,}|www\\.[a-zA-Z0-9]\\.[^\\s]{2,})";
+        Pattern p1 = Pattern.compile(WEB_REGEX1, Pattern.MULTILINE);
+        Pattern p2 = Pattern.compile(WEB_REGEX2, Pattern.MULTILINE);
+        Matcher m1 = p1.matcher(str);
+        Matcher m2 = p2.matcher(str);
+        if(m1.find()){tvweb.setText("WebPage : "+ m1.group());}
+        if(m2.find()){tvweb.setText("WebPage : "+ m2.group());}
     }
 
 

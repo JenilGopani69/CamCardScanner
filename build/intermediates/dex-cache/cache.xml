@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/home/webmavens/.android/build-cache/012bbbae5987885171a65322bd88488941ed988c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_cf5b04097f925433069c6146d5f8d45910efd8ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/webmavens/StudioProjects/CamCardScanner/scanlibrary/build/intermediates/bundles/default/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -12,21 +21,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/webmavens/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jar="/home/webmavens/.android/build-cache/7d187e79612acf07299ebbc40abe6f6044757b97/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_0eef2d017c2d03af0e7037b297b62aca0fea3760.jar" />
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_61d0ef6c87b1edd3e67106d54f7acc696294b33d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/webmavens/.android/build-cache/c1a2ae8b7ae4f5c599b81150eb48d22f1e473594/output/jars/classes.jar"
+        jar="/home/webmavens/.android/build-cache/c5330029333305d4e5ea8e850cc37123fadaa62d/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_4ef9e1eedd4fc3a8fdb5669e09c93e4c6c08a985.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_ed04314c2b20c95a3d3da4f2f4b9d3d945547d8a.jar" />
     </item>
 
 </items>

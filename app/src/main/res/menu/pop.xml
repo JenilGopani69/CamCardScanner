@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+
+    <item android:id="@+id/menu_name"
+        android:title="Name" />
+
+    <item android:id="@+id/menu_company"
+        android:title="Company" />
+
+    <item android:id="@+id/menu_title"
+        android:title="Title" />
+
+    <item android:id="@+id/menu_mobile"
+        android:title="Mobile" />
+
+    <item android:id="@+id/menu_landline"
+        android:title="Landline" />
+
+    <item android:id="@+id/menu_email"
+        android:title="Email" />
+
+    <item android:id="@+id/menu_webpage"
+        android:title="Webpage" />
+
+    <item android:id="@+id/menu_address"
+        android:title="Address" />
+
+</menu>

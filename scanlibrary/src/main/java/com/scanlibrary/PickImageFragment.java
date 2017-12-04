@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.FileProvider;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -28,8 +29,7 @@ import java.util.Date;
 public class PickImageFragment extends Fragment {
 
     private View view;
-    private ImageButton cameraButton;
-    private ImageButton galleryButton;
+    private FloatingActionButton cameraButton;
     private Uri fileUri;
     private IScanner scanner;
 
@@ -50,10 +50,8 @@ public class PickImageFragment extends Fragment {
     }
 
     private void init() {
-        cameraButton = (ImageButton) view.findViewById(R.id.cameraButton);
+        cameraButton = (FloatingActionButton) view.findViewById(R.id.cameraButton);
         cameraButton.setOnClickListener(new CameraButtonClickListener());
-        galleryButton = (ImageButton) view.findViewById(R.id.selectButton);
-        galleryButton.setOnClickListener(new GalleryClickListener());
         if (isIntentPreferenceSet()) {
             handleIntentPreference();
         } else {
@@ -75,8 +73,6 @@ public class PickImageFragment extends Fragment {
         int preference = getIntentPreference();
         if (preference == ScanConstants.OPEN_CAMERA) {
             openCamera();
-        } else if (preference == ScanConstants.OPEN_MEDIA) {
-            openMediaContent();
         }
     }
 
@@ -96,20 +92,6 @@ public class PickImageFragment extends Fragment {
         public void onClick(View v) {
             openCamera();
         }
-    }
-
-    private class GalleryClickListener implements View.OnClickListener {
-        @Override
-        public void onClick(View view) {
-            openMediaContent();
-        }
-    }
-
-    public void openMediaContent() {
-        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
-        intent.addCategory(Intent.CATEGORY_OPENABLE);
-        intent.setType("image/*");
-        startActivityForResult(intent, ScanConstants.PICKFILE_REQUEST_CODE);
     }
 
     public void openCamera() {

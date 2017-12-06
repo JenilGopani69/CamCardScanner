@@ -46,6 +46,10 @@ public class ResultFragment extends Fragment {
         setScannedImage(bitmap);
         doneButton = (Button) view.findViewById(R.id.doneButton);
         doneButton.setOnClickListener(new DoneButtonClickListener());
+        roleft = (Button) view.findViewById(R.id.roleft);
+        roright = (Button) view.findViewById(R.id.roright);
+        roright.setOnClickListener(new RRightButtonClickListner());
+        roleft.setOnClickListener(new RLeftButtonClickListner());
 
     }
 
@@ -68,6 +72,7 @@ public class ResultFragment extends Fragment {
 
     public void setScannedImage(Bitmap scannedImage) {
         scannedImageView.setImageBitmap(scannedImage);
+        scannedImageView.setRotation(scannedImageView.getRotation() + 90);
     }
 
     private class DoneButtonClickListener implements View.OnClickListener {
@@ -113,5 +118,21 @@ public class ResultFragment extends Fragment {
 
     protected synchronized void dismissDialog() {
         progressDialogFragment.dismissAllowingStateLoss();
+    }
+
+    private class RRightButtonClickListner implements View.OnClickListener {
+
+        @Override
+        public void onClick(View view) {
+            scannedImageView.setRotation(scannedImageView.getRotation() + 90);
+        }
+    }
+
+    private class RLeftButtonClickListner implements View.OnClickListener {
+
+        @Override
+        public void onClick(View view) {
+            scannedImageView.setRotation(scannedImageView.getRotation() + -90);
+        }
     }
 }

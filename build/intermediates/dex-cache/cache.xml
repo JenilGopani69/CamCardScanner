@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/webmavens/StudioProjects/CamCardScanner/scanlibrary/build/intermediates/bundles/default/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0d67d8d310a566a259ed9cdbc68e28f8613f7d78">
-        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_fa7c7e98394b33b161c26e17f1895ba93aa204f6.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/webmavens/.android/build-cache/7d187e79612acf07299ebbc40abe6f6044757b97/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -36,6 +27,15 @@
         revision="25.0.0"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
         <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_ed04314c2b20c95a3d3da4f2f4b9d3d945547d8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/webmavens/StudioProjects/CamCardScanner/scanlibrary/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5f2f4065ef5353969fd7faa904c5fb66c1e141a">
+        <dex dex="/home/webmavens/StudioProjects/CamCardScanner/app/build/intermediates/pre-dexed/debug/classes_fa7c7e98394b33b161c26e17f1895ba93aa204f6.jar" />
     </item>
 
 </items>

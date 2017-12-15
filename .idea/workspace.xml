@@ -32,43 +32,16 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.scanner.demo" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b4e866e-e7b2-4a35-812d-bb5b96ea0d86" name="Default" comment="added card view">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_appcompat_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_design_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_recyclerview_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_annotations_24_0_0_jar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_android_support_support_v4_24_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/add.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_scanlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_scanlibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_scanlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_scanlibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="3b4e866e-e7b2-4a35-812d-bb5b96ea0d86" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Contact.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Contact.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/scanlibrary.iml" afterPath="$PROJECT_DIR$/scanlibrary/scanlibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/scanlibrary/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/src/main/java/com/scanlibrary/ProgressDialogFragment.java" afterPath="$PROJECT_DIR$/scanlibrary/src/main/java/com/scanlibrary/ProgressDialogFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/src/main/java/com/scanlibrary/ResultFragment.java" afterPath="$PROJECT_DIR$/scanlibrary/src/main/java/com/scanlibrary/ResultFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/src/main/java/com/scanlibrary/ScanActivity.java" afterPath="$PROJECT_DIR$/scanlibrary/src/main/java/com/scanlibrary/ScanActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/src/main/res/layout/result_layout.xml" afterPath="$PROJECT_DIR$/scanlibrary/src/main/res/layout/result_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/src/main/res/layout/scan_fragment_layout.xml" afterPath="$PROJECT_DIR$/scanlibrary/src/main/res/layout/scan_fragment_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scanlibrary/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/scanlibrary/src/main/res/values/colors.xml" />
     </list>
     <ignored path="ScanDemoExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,61 +130,7 @@
     <favorites_list name="ScanDemoExample" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="130" column="20" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
-              <folding>
-                <element signature="e#5756#5819#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLiteHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SQLiteListAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteListAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding>
-                <element signature="method#mtess#0;class#Contact#0" expanded="false" />
-                <element signature="method#fabinvisible#0;class#Contact#0" expanded="false" />
-                <element signature="method#checkFile#0;class#Contact#0" expanded="false" />
-                <element signature="method#copyFiles#0;class#Contact#0" expanded="false" />
-                <element signature="method#extractName#0;class#Contact#0" expanded="false" />
-                <element signature="method#extractEmail#0;class#Contact#0" expanded="false" />
-                <element signature="method#extractPhone#0;class#Contact#0" expanded="false" />
-                <element signature="method#extractWeb#0;class#Contact#0" expanded="false" />
-                <element signature="method#onActivityResult#0;class#Contact#0" expanded="false" />
-                <element signature="method#AddtoContact#0;class#Contact#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -2824,13 +2743,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scanlibrary/src/main/res/drawable/ic_rotate_right_black_24dp.xml" />
-        <option value="$PROJECT_DIR$/scanlibrary/build/intermediates/bundles/default/res/layout/result_layout.xml" />
-        <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_contact.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_add_black_24dp.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/email.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/values-hdpi.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/camara1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/close.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/add.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/cardshape.xml" />
@@ -2862,19 +2774,26 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/add_camara.xml" />
         <option value="$PROJECT_DIR$/scanlibrary/src/main/java/com/scanlibrary/ScanActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Card.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Food.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/update_food_activity.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/food_items.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/FoodListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Contact.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/listviewdatalayout.xml" />
         <option value="$USER_HOME$/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-95cb90a00903/data/data/com.scanner.demo/databases/Demo" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Card.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Contact.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/dataAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/listviewdatalayout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$USER_HOME$/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-95cb90a00903/data/data/com.scanner.demo/databases/Card" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Adapter/dataAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Hepler/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Adapter/Card.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Hepler/DatabaseHelper.java" />
       </list>
     </option>
   </component>
@@ -2905,7 +2824,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -2955,38 +2873,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CamCardScanner" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CamCardScanner" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3018,6 +2904,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CamCardScanner" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hepler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3147,6 +3055,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3169,7 +3078,7 @@
     <property name="LayoutCode.rearrangeEntriesGroovy" value="false" />
     <property name="FullScreen" value="false" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.3.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SqlitedbwithImages" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Card" />
     <property name="device.picker.selection" value="95cb90a00903" />
     <property name="android.profiler.active" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
@@ -3182,9 +3091,12 @@
     <property name="SearchEverywhereHistoryKey" value="contact&#9;FILE&#9;file:///home/webmavens/StudioProjects/CamCardScanner/app/src/main/java/com/scanner/demo/Contact.java&#10;conta&#9;FILE&#9;file:///home/webmavens/StudioProjects/CamCardScanner/app/src/main/res/layout/activity_contact.xml&#10;Main&#9;FILE&#9;file:///home/webmavens/StudioProjects/CamCardScanner/app/src/main/java/com/scanner/demo/MainActivity.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scanlibrary/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/scanlibrary/src/main/res/drawable-xxhdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/scanlibrary/src/main/res/drawable-mdpi" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.scanner.demo" />
@@ -3193,12 +3105,9 @@
       <recent name="com.scanner.demo" />
       <recent name="com.scanlibrary" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/scanlibrary/src/main/res/drawable-xxhdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
-      <recent name="$PROJECT_DIR$/scanlibrary/src/main/res/drawable-mdpi" />
-      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scanlibrary/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3286,7 +3195,7 @@
       <option name="ACTIVITY_CLASS" value="com.scanner.demo.Contact" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513315295949" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513326955674" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -3359,7 +3268,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513315295949" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513326955674" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3407,7 +3316,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513315295949" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513326955674" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3599,7 +3508,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513315295951" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513326955676" />
       </method>
     </configuration>
     <list size="3">
@@ -3766,7 +3675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1512120520319</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sqlite text insertion">
+      <created>1513315328214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1513315328215</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -3802,7 +3718,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899627" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21673307" sideWeight="0.49256507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2159877" sideWeight="0.49256507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4055777" sideWeight="0.5057851" order="10" side_tool="true" content_ui="tabs" />
@@ -3819,7 +3735,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30517927" sideWeight="0.49421486" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30438247" sideWeight="0.49421486" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.41195476" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.58804524" order="16" side_tool="true" content_ui="tabs" />
@@ -3882,48 +3798,25 @@
     <MESSAGE value="new contact layout" />
     <MESSAGE value="added dynamic view" />
     <MESSAGE value="add contact (done)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add contact (done)" />
+    <MESSAGE value="sqlite text insertion" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite text insertion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scanlibrary/src/main/res/drawable-hdpi/ic_image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanlibrary/src/main/res/drawable/right.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="143" lean-forward="true" selection-start-line="7" selection-start-column="143" selection-end-line="7" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanlibrary/src/main/res/drawable/left.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanlibrary/src/main/res/drawable-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scanlibrary/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/add_camera.xml" />
@@ -3957,14 +3850,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="61" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/add.xml" />
@@ -4123,7 +4016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Card.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/update_food_activity.xml" />
     <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/food_items.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Food.java" />
@@ -4131,27 +4023,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/update_card_activity.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/food_items.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_items.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/android/database/sqlite/SQLiteDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432">
@@ -4160,17 +4031,8 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-95cb90a00903/data/data/com.scanner.demo/databases/Demo" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listviewdatalayout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="192" column="23" lean-forward="false" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteHelper.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteListAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -4182,37 +4044,74 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-23/android/widget/AdapterView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="349" column="20" lean-forward="false" selection-start-line="349" selection-start-column="20" selection-end-line="349" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/listviewdatalayout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AndroidStudio/DeviceExplorer/xiaomi-redmi_note_4-95cb90a00903/data/data/com.scanner.demo/databases/Card" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="130" column="20" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+        <state relative-caret-position="16">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <element signature="e#5756#5819#0" expanded="false" />
+            <element signature="method#onCreate#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onResume#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#requestCameraPermission#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#openCamera#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#3873#3936#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Adapter/dataAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/SQLiteListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="-167">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="-167">
+          <caret line="223" column="33" lean-forward="false" selection-start-line="223" selection-start-column="33" selection-end-line="223" selection-end-column="33" />
           <folding>
+            <element signature="method#onCreate#0;class#Contact#0" expanded="false" />
             <element signature="method#mtess#0;class#Contact#0" expanded="false" />
             <element signature="method#fabinvisible#0;class#Contact#0" expanded="false" />
             <element signature="method#checkFile#0;class#Contact#0" expanded="false" />
@@ -4223,6 +4122,24 @@
             <element signature="method#extractWeb#0;class#Contact#0" expanded="false" />
             <element signature="method#onActivityResult#0;class#Contact#0" expanded="false" />
             <element signature="method#AddtoContact#0;class#Contact#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Adapter/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/scanner/demo/Hepler/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="128" column="24" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="24" />
+          <folding>
+            <element signature="e#2122#2128#0" expanded="true" />
           </folding>
         </state>
       </provider>

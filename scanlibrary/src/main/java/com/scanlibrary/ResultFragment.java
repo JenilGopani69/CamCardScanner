@@ -27,7 +27,7 @@ public class ResultFragment extends Fragment {
     Button roleft,roright;
     private ImageView scannedImageView;
     private Button doneButton;
-    private Bitmap original,neworignal;
+    private Bitmap original;
     private static ProgressDialogFragment progressDialogFragment;
 
     public ResultFragment() {

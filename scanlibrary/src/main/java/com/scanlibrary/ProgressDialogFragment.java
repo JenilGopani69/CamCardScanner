@@ -30,14 +30,14 @@ public class ProgressDialogFragment extends DialogFragment {
 
 			@Override
 			public boolean onKey(DialogInterface dialog, int keyCode,
-					KeyEvent event) {
+								 KeyEvent event) {
 
 				if (keyCode == KeyEvent.KEYCODE_BACK) {
 					return true;
 				}
-				return false; 
+				return false;
 			}
- 
+
 		};
 		dialog.setOnKeyListener(keyListener);
 		return dialog;
